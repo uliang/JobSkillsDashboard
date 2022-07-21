@@ -1,0 +1,4 @@
+frontend
+.vscode
+__pycache__
+setup.sh

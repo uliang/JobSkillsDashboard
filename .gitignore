@@ -1,7 +1,9 @@
 .DS_Store
-/node_modules 
+node_modules/
 .vscode/
 etl/dask-worker-space/
 etl/.ipynb_checkpoints/
 etl/data/
 etl/**/*.csv
+
+__pycache__

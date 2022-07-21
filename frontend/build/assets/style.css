@@ -1,0 +1,345 @@
+body {
+  overflow-x: hidden;
+}
+
+html {
+  background-color: fafafa;
+}
+
+/*navigaiton bar*/
+tr {
+  line-height: 13px;
+  font-size: 14px;
+}
+
+.ProductLogo {
+  width: 320px;
+  height: 35px;
+}
+
+nav li {
+  font-size: 14px;
+  margin-right: 10px;
+  ;
+}
+
+#main-content {
+  position: relative;
+}
+
+/*Search Drop DOwn*/
+.dropdownbutton {
+  width: 70%;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.select {
+  margin-right: 2%;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+.title {
+  font-family: Source Sans Pro;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin-top: 2%
+}
+
+/* Style the tab */
+.tab {
+  width: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.nav-item1 {
+  width: 570px;
+  text-align: center;
+}
+
+.nav-link {
+  color: #7f7f7f
+}
+
+.top {
+  width: 100%;
+  /* height: 200px; */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  /* background-color: #f5f5f5; */
+  margin-bottom: 20px;
+}
+
+.break10 {
+  margin: 10px;
+}
+
+.break30 {
+  margin: 30px;
+}
+
+.graphheaders {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  border-radius: 10px;
+}
+
+.rec {
+  width: 100%;
+  /* height: 200px; */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  /* background-color: #f5f5f5; */
+}
+
+.btnfilter {
+  width: 100px;
+  height: 28px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #444444;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.btnfilterleft {
+  width: 100px;
+  height: 28px;
+  background-color: #ffffff;
+  color: #444444;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.titlefilter {
+  display: inline-block;
+  width: 100%;
+}
+
+.graphrec {
+  width: 100%;
+  height: 465px;
+  margin-top: 17px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  display: block;
+}
+
+.graphrec3 {
+  width: 100%;
+  height: 665px;
+  margin-top: 17px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  display: block;
+}
+
+.graphrec2 {
+  width: 100%;
+  height: 465px;
+  margin-top: 17px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+.skillstrendbackground {
+  width: 100%;
+  height: 465px;
+  margin-top: 17px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.graphrec4 {
+  width: 100%;
+  height: 465px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+.halfgraph {
+  width: 100%;
+  height: 465px;
+}
+
+.filtertitle {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+  margin-right: 10px;
+}
+
+.biggraphs {
+  width: 100%;
+  height: 420px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+.rightfilter {
+  float: right;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #ba0303;
+  border-top: 4px solid #ba0303;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+  font-weight: 700;
+  background-color: #f7f7f7;
+  padding-bottom: 6px;
+  z-index: 99 !important;
+  position: absolute;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.aboutheader {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: source sans pro;
+  margin-top: 40px;
+}
+
+.about-desc {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: source sans pro;
+}
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #ba0303;
+  border-bottom: 3px solid #ba0303;
+  font-weight: 700;
+  border-color: #ba0303;
+}
+
+.dsaclogo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* feedback page */
+.inputdetails {
+  width: 100%;
+  height: 45px;
+  border: solid 1px #e5e5e5;
+  background-color: #fafafa;
+}
+
+.feedbackinput {
+  width: 100%;
+  height: 100px;
+  border: solid 1px #e5e5e5;
+  background-color: #fafafa;
+}
+
+.row-name, .row-email, .row-feedback {
+  padding-bottom: 30px;
+}
+
+.space {
+  width: 20%;
+}
+
+.details {
+  width: 48px;
+  height: 25px;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+  text-align: left;
+}
+
+.sectorbtn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #ba0303;
+  color: #ffffff;
+  font-weight: 600;
+  margin: auto;
+}
+
+.wide {
+  margin: 0 -85rem;
+  padding: 0.25rem 90rem;
+  background: #f7f7f7;
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  border-top: 1px solid #e1e1e1
+}
+
+.nav-tabs {
+  border-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+  border: 0;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #dee2e6;
+  background-color: #ffffff;
+}
+
+.js-example-basic-single {
+  height: 38px;
+}

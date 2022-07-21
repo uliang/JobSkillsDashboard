@@ -1,0 +1,19 @@
+$theme-colors: (
+  "primary": #8cc9ff,
+  "danger": #fff1f0
+);
+
+$col: (
+  "width": 100%
+);
+
+$grid-columns:      16 !default;
+$grid-gutter-width: 20px !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/grid";
+
+.main-form {
+    width: 450px;
+    margin: auto;
+}
